@@ -1,0 +1,63 @@
+# Ignore log files
+log/*.log
+
+# Ignore everything in the tmp directory
+tmp
+
+# Ignore bundler config
+/.bundle
+
+#ignore npm modules
+lambdas/**/node_modules
+
+#Ignore vagrant
+/.vagrant
+/.vagrantfile
+mydotapi.box
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+test/**/log
+log/*.log
+pact_generation/pacts/*
+pact_generation/log/*
+
+*.swp
+*.swo
+.ruby-gemset
+coverage/
+.rubocop.out
+
+#test commits
+temp
+
+# Ignore pact_broker password
+/reports/*
+test/.pact_broker_credentials.yml
+# Ignore temporary output
+/ops/ansible/output/
+/ops/ansible/**/*.retry
+application.tar
+
+# Ignore JMeter log file
+jmeter.log
+
+#ignore silly mac files
+.DS_Store
+
+# Ignore IDE specific files
+.project
+.idea/
+.idea/*
+/.idea
+.idea
+
+# Ignore ctags files
+tags
+
+/Downloads/*
+test/dynamodb_local/*
+test/dynamodb_local_*
+.rbenv-gemsets
